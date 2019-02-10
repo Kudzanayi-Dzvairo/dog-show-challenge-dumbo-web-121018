@@ -6,7 +6,7 @@ You are responsible for managing the website for the Westminster Kennel Club Dog
 
 You will be using the [json-server](https://github.com/typicode/json-server) package to mock an external API. You can make the same RESTful requests to this server that you would to any API. If you haven't yet, install json-server.
 ```bash
-npm install -g json-server
+json-server --watch db.json
 ```
 
 Then run the server with:
